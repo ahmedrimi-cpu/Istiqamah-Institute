@@ -678,10 +678,11 @@ nav {
 
 <!-- VIDEO -->
 <div class="video-section" style="margin-top:22px;">
-  <div class="video-frame" id="heroVid" onclick="playHero()">
-    <div class="video-thumb" id="heroThumb">
-      <div class="play-outer"><div class="play-inner"><div class="play-tri"></div></div></div>
-      <div class="video-label">Watch — How Istiqamah Works</div>
+  <div class="video-frame" id="heroVid" onclick="playHero()" style="cursor:pointer;">
+    <div class="video-thumb" id="heroThumb" style="background-image:url('https://img.youtube.com/vi/nxhFQPe6tqE/maxresdefault.jpg');background-size:cover;background-position:center;">
+      <div style="position:absolute;inset:0;background:rgba(0,0,0,0.35);border-radius:inherit;"></div>
+      <div class="play-outer" style="position:relative;z-index:2;"><div class="play-inner"><div class="play-tri"></div></div></div>
+      <div class="video-label" style="position:relative;z-index:2;">Watch — How Istiqamah Works</div>
     </div>
     <iframe id="heroIframe" allow="autoplay; fullscreen" allowfullscreen></iframe>
   </div>
